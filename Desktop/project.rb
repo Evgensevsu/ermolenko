@@ -23,3 +23,7 @@ class EngineeringCalculator < SimpleCalculator
     a ** b
   end
 
+  def percent(a, b)
+    (a * b) / 100.0
+  end
+end
